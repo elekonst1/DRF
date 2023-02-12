@@ -33,7 +33,9 @@ const UserProjectList = ({items}) => {
             <th>
                 Username
             </th>
-                {filtered_items.map((item) => <ProjectItem item={item} />)}
+            <tbody>
+            {filtered_items.map((item) => <ProjectItem item={item} />)}    
+            </tbody>            
         </table>
     )
 }
