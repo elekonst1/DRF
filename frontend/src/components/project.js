@@ -29,7 +29,7 @@ const ProjectList = ({items}) => {
             <th>
                 Username
             </th>
-                {items.map((item) => <ProjectItem item={item} />)}
+                {items.map((item) => <ProjectItem item={item} />)}    
         </table>
     )
 }
